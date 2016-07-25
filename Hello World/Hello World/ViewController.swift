@@ -10,9 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var lablePrintAnswer: UILabel!
+    @IBOutlet var textAge: UITextField!
+    
+    @IBAction func onSubmit(sender: AnyObject) {
+        print("Submit button pressed.");
+        lablePrintAnswer.text = "Answer is ready!";
+        lablePrintAnswer.text = textAge.text;
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        print("Application started!");
     }
 
     override func didReceiveMemoryWarning() {

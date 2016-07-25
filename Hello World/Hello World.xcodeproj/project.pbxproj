@@ -13,6 +13,7 @@
 		0B66E8451D45B1DF0050AA30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B66E8441D45B1DF0050AA30 /* Assets.xcassets */; };
 		0B66E8481D45B1DF0050AA30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B66E8461D45B1DF0050AA30 /* LaunchScreen.storyboard */; };
 		0B66E8501D45BB150050AA30 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B66E84F1D45BB150050AA30 /* cat.png */; };
+		0B66E8521D45BC910050AA30 /* boy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B66E8511D45BC910050AA30 /* boy.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0B66E8471D45B1DF0050AA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B66E8491D45B1DF0050AA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B66E84F1D45BB150050AA30 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		0B66E8511D45BC910050AA30 /* boy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boy.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0B66E83C1D45B1DF0050AA30 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				0B66E8511D45BC910050AA30 /* boy.jpg */,
 				0B66E84F1D45BB150050AA30 /* cat.png */,
 				0B66E83D1D45B1DF0050AA30 /* AppDelegate.swift */,
 				0B66E83F1D45B1DF0050AA30 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B66E8481D45B1DF0050AA30 /* LaunchScreen.storyboard in Resources */,
+				0B66E8521D45BC910050AA30 /* boy.jpg in Resources */,
 				0B66E8451D45B1DF0050AA30 /* Assets.xcassets in Resources */,
 				0B66E8501D45BB150050AA30 /* cat.png in Resources */,
 				0B66E8431D45B1DF0050AA30 /* Main.storyboard in Resources */,
